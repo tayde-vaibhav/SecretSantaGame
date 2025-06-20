@@ -85,19 +85,7 @@ python -m unittest discover -s tests
 
 **Version Control**
 
-- Initialize a Git repository in the project root:
-
-git init
-
-git add .
-
-git commit -m "Initial commit: Secret Santa Game solution with tests"
-
-- Push to a remote repository (GitHub) for submission:
-
-git remote add origin &lt;repository-url&gt;
-
-git push -u origin main
+- Git repository has been created for this Project at https://github.com/tayde-vaibhav/SecretSantaGame.git
 
 **Notes**
 - **Testing**: The test_secret_santa.py file creates temporary CSV files for testing and cleans them up afterward. Run tests using python -m unittest discover -s tests to verify functionality.
